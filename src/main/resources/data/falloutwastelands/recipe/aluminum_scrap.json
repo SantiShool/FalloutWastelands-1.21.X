@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item":"falloutwastelands:bulk_of_aluminum"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "falloutwastelands:aluminum_scrap"
+  }
+}

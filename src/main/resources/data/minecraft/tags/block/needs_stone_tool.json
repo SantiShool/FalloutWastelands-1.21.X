@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "falloutwastelands:bauxite_deepslate_ore",
+    "falloutwastelands:bauxite_ore",
+    "falloutwastelands:bulk_of_aluminum"
+  ]
+}

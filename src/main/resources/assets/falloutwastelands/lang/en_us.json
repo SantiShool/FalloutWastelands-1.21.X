@@ -1,0 +1,13 @@
+{
+  "item.falloutwastelands.acid_waste": "Acid Waste",
+  "item.falloutwastelands.aluminum_scrap": "Aluminum Scrap",
+  "item.falloutwastelands.radaway": "Radaway",
+  "item.falloutwastelands.raw_bauxite": "Raw Bauxite",
+
+  "block.falloutwastelands.bauxite_deepslate_ore": "Bauxite Deepslate Ore",
+  "block.falloutwastelands.bauxite_ore": "Bauxite Ore",
+  "block.falloutwastelands.bulk_of_aluminum": "Bulk of Aluminum",
+
+  "creativetab.falloutwastelands.fallout_junk": "Fallout Junk",
+  "creativetab.falloutwastelands.fallout_consumables": "Fallout Consumables"
+}
