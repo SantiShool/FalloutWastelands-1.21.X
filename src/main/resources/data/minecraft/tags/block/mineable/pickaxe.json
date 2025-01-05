@@ -3,6 +3,9 @@
   "values": [
     "falloutwastelands:bauxite_deepslate_ore",
     "falloutwastelands:bauxite_ore",
-    "falloutwastelands:bulk_of_aluminum"
+    "falloutwastelands:black_titanium_deepslate_ore",
+    "falloutwastelands:bulk_of_aluminum",
+    "falloutwastelands:lead_deepslate_ore",
+    "falloutwastelands:lead_ore"
   ]
 }

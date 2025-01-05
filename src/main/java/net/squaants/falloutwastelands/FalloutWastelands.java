@@ -60,12 +60,31 @@ public class FalloutWastelands {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ACID_WASTE);
             event.accept(ModItems.ALUMINUM_SCRAP);
+            event.accept(ModItems.BALLISTIC_FIBER_SCRAP);
+            event.accept(ModItems.BLACK_TITANIUM_SCRAP);
+            event.accept(ModItems.CERAMIC_SCRAP);
+            event.accept(ModItems.CIRCUITS);
+            event.accept(ModItems.CORK_SCRAP);
+            event.accept(ModItems.EXCESS_ADHESIVE);
+            event.accept(ModItems.FIBER_OPTICS_BUNDLE);
+            event.accept(ModItems.FIBERGLASS_SPOOL);
+            event.accept(ModItems.LEAD_SCRAP);
+            event.accept(ModItems.LOOSE_GEARS);
+            event.accept(ModItems.RAW_ASBESTOS);
             event.accept(ModItems.RAW_BAUXITE);
+            event.accept(ModItems.RAW_BLACK_TITANIUM);
+            event.accept(ModItems.RAW_CLOTH);
+            event.accept(ModItems.RAW_LEAD);
+            event.accept(ModItems.WASTE_ANTISEPTIC);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BAUXITE_DEEPSLATE_ORE);
             event.accept(ModBlocks.BAUXITE_ORE);
+            event.accept(ModBlocks.BLACK_TITANIUM_DEEPSLATE_ORE);
             event.accept(ModBlocks.BULK_OF_ALUMINUM);
+            event.accept(ModBlocks.LEAD_DEEPSLATE_ORE);
+            event.accept(ModBlocks.LEAD_ORE);
         }
     }
 
