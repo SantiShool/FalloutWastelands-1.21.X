@@ -37,10 +37,16 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.FIBERGLASS_SPOOL);
                         output.accept(ModBlocks.LEAD_DEEPSLATE_ORE);
                         output.accept(ModBlocks.LEAD_ORE);
+                        output.accept(ModItems.LOOSE_GEARS);
+                        output.accept(ModItems.LOOSE_SCREWS);
+                        output.accept(ModItems.LOOSE_SPRINGS);
+                        output.accept(ModItems.MOLDED_PLASTIC);
+                        output.accept(ModItems.NUCLEAR_WASTE);
                         output.accept(ModItems.RAW_ASBESTOS);
                         output.accept(ModItems.RAW_BAUXITE);
                         output.accept(ModItems.RAW_BLACK_TITANIUM);
                         output.accept(ModItems.RAW_CLOTH);
+                        output.accept(ModItems.RAW_RUBBER);
                         output.accept(ModItems.WASTE_ANTISEPTIC);
                     }).build());
 

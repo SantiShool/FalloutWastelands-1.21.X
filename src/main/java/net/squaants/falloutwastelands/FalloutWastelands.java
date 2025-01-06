@@ -70,11 +70,16 @@ public class FalloutWastelands {
             event.accept(ModItems.FIBERGLASS_SPOOL);
             event.accept(ModItems.LEAD_SCRAP);
             event.accept(ModItems.LOOSE_GEARS);
+            event.accept(ModItems.LOOSE_SCREWS);
+            event.accept(ModItems.LOOSE_SPRINGS);
+            event.accept(ModItems.MOLDED_PLASTIC);
+            event.accept(ModItems.NUCLEAR_WASTE);
             event.accept(ModItems.RAW_ASBESTOS);
             event.accept(ModItems.RAW_BAUXITE);
             event.accept(ModItems.RAW_BLACK_TITANIUM);
             event.accept(ModItems.RAW_CLOTH);
             event.accept(ModItems.RAW_LEAD);
+            event.accept(ModItems.RAW_RUBBER);
             event.accept(ModItems.WASTE_ANTISEPTIC);
         }
 

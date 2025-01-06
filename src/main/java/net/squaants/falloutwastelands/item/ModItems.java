@@ -1,6 +1,7 @@
 package net.squaants.falloutwastelands.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -33,6 +34,14 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> LOOSE_GEARS = ITEMS.register("loose_gears",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LOOSE_SCREWS = ITEMS.register("loose_screws",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> LOOSE_SPRINGS = ITEMS.register("loose_springs",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MOLDED_PLASTIC = ITEMS.register("molded_plastic",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NUCLEAR_WASTE = ITEMS.register("nuclear_waste",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RADAWAY = ITEMS.register("radaway",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_ASBESTOS = ITEMS.register("raw_asbestos",
@@ -44,6 +53,8 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_CLOTH = ITEMS.register("raw_cloth",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_LEAD = ITEMS.register("raw_lead",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_RUBBER = ITEMS.register("raw_rubber",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WASTE_ANTISEPTIC = ITEMS.register("waste_antiseptic",
             () -> new Item(new Item.Properties()));

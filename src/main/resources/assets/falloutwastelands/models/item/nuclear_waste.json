@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "falloutwastelands:item/loose_gears"
+    "layer0": "falloutwastelands:item/nuclear_waste"
   }
 }
