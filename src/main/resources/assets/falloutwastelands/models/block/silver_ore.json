@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "falloutwastelands:block/bulk_of_aluminum"
+    "all": "falloutwastelands:block/silver_ore"
   }
 }

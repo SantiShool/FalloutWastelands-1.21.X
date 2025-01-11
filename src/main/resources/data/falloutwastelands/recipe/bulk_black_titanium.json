@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "B": {
-      "item": "falloutwastelands:aluminum_scrap"
+      "item": "falloutwastelands:black_titanium_scrap"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "falloutwastelands:bulk_of_aluminum"
+    "id": "falloutwastelands:bulk_black_titanium"
   }
 }

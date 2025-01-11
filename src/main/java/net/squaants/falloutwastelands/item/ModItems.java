@@ -18,6 +18,22 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BLACK_TITANIUM_SCRAP = ITEMS.register("black_titanium_scrap",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_ALUMINUM = ITEMS.register("bulk_aluminum",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_BLACK_TITANIUM = ITEMS.register("bulk_black_titanium",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_CLOTH = ITEMS.register("bulk_cloth",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_LEAD = ITEMS.register("bulk_lead",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_PLASTIC = ITEMS.register("bulk_plastic",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_RUBBER = ITEMS.register("bulk_rubber",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_SCREWS = ITEMS.register("bulk_screws",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_SILVER = ITEMS.register("bulk_silver",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CERAMIC_SCRAP = ITEMS.register("ceramic_scrap",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CIRCUITS = ITEMS.register("circuits",
@@ -55,6 +71,10 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_LEAD = ITEMS.register("raw_lead",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_RUBBER = ITEMS.register("raw_rubber",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SILVER_SCRAP = ITEMS.register("silver_scrap",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WASTE_ANTISEPTIC = ITEMS.register("waste_antiseptic",
             () -> new Item(new Item.Properties()));
