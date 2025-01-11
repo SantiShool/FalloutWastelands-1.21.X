@@ -62,6 +62,9 @@ public class FalloutWastelands {
             event.accept(ModItems.ALUMINUM_SCRAP);
             event.accept(ModItems.BALLISTIC_FIBER_SCRAP);
             event.accept(ModItems.BLACK_TITANIUM_SCRAP);
+            event.accept(ModItems.BULK_CLOTH);
+            event.accept(ModItems.BULK_PLASTIC);
+            event.accept(ModItems.BULK_RUBBER);
             event.accept(ModItems.CERAMIC_SCRAP);
             event.accept(ModItems.CIRCUITS);
             event.accept(ModItems.CORK_SCRAP);
@@ -80,6 +83,8 @@ public class FalloutWastelands {
             event.accept(ModItems.RAW_CLOTH);
             event.accept(ModItems.RAW_LEAD);
             event.accept(ModItems.RAW_RUBBER);
+            event.accept(ModItems.RAW_SILVER);
+            event.accept(ModItems.SILVER_SCRAP);
             event.accept(ModItems.WASTE_ANTISEPTIC);
         }
 
@@ -88,8 +93,11 @@ public class FalloutWastelands {
             event.accept(ModBlocks.BAUXITE_ORE);
             event.accept(ModBlocks.BLACK_TITANIUM_DEEPSLATE_ORE);
             event.accept(ModBlocks.BULK_OF_ALUMINUM);
+            event.accept(ModBlocks.BULK_OF_SILVER);
             event.accept(ModBlocks.LEAD_DEEPSLATE_ORE);
             event.accept(ModBlocks.LEAD_ORE);
+            event.accept(ModBlocks.SILVER_DEEPSLATE_ORE);
+            event.accept(ModBlocks.SILVER_ORE);
         }
     }
 

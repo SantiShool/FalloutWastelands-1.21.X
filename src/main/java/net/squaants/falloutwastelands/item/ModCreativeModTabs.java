@@ -23,12 +23,16 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.ACID_WASTE);
                         output.accept(ModItems.ALUMINUM_SCRAP);
                         output.accept(ModItems.BALLISTIC_FIBER_SCRAP);
-                        output.accept(ModItems.BLACK_TITANIUM_SCRAP);
                         output.accept(ModBlocks.BAUXITE_DEEPSLATE_ORE);
                         output.accept(ModBlocks.BAUXITE_ORE);
+                        output.accept(ModItems.BLACK_TITANIUM_SCRAP);
                         output.accept(ModBlocks.BLACK_TITANIUM_DEEPSLATE_ORE);
                         output.accept(ModItems.BLACK_TITANIUM_SCRAP);
+                        output.accept(ModItems.BULK_CLOTH);
                         output.accept(ModBlocks.BULK_OF_ALUMINUM);
+                        output.accept(ModBlocks.BULK_OF_SILVER);
+                        output.accept(ModItems.BULK_PLASTIC);
+                        output.accept(ModItems.BULK_RUBBER);
                         output.accept(ModItems.CERAMIC_SCRAP);
                         output.accept(ModItems.CIRCUITS);
                         output.accept(ModItems.CORK_SCRAP);
@@ -37,6 +41,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.FIBERGLASS_SPOOL);
                         output.accept(ModBlocks.LEAD_DEEPSLATE_ORE);
                         output.accept(ModBlocks.LEAD_ORE);
+                        output.accept(ModItems.LEAD_SCRAP);
                         output.accept(ModItems.LOOSE_GEARS);
                         output.accept(ModItems.LOOSE_SCREWS);
                         output.accept(ModItems.LOOSE_SPRINGS);
@@ -46,7 +51,12 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RAW_BAUXITE);
                         output.accept(ModItems.RAW_BLACK_TITANIUM);
                         output.accept(ModItems.RAW_CLOTH);
+                        output.accept(ModItems.RAW_LEAD);
                         output.accept(ModItems.RAW_RUBBER);
+                        output.accept(ModItems. RAW_SILVER);
+                        output.accept(ModBlocks.SILVER_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.SILVER_ORE);
+                        output.accept(ModItems.SILVER_SCRAP);
                         output.accept(ModItems.WASTE_ANTISEPTIC);
                     }).build());
 

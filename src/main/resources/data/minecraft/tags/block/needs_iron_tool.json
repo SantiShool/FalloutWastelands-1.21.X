@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "falloutwastelands:bulk_of_silver",
+    "falloutwastelands:silver_deepslate_ore",
+    "falloutwastelands:silver_ore"
+  ]
+}

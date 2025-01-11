@@ -5,7 +5,10 @@
     "falloutwastelands:bauxite_ore",
     "falloutwastelands:black_titanium_deepslate_ore",
     "falloutwastelands:bulk_of_aluminum",
+    "falloutwastelands:bulk_of_silver",
     "falloutwastelands:lead_deepslate_ore",
-    "falloutwastelands:lead_ore"
+    "falloutwastelands:lead_ore",
+    "falloutwastelands:silver_deepslate_ore",
+    "falloutwastelands:silver_ore"
   ]
 }
