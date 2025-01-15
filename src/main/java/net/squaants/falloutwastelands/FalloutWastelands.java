@@ -58,49 +58,9 @@ public class FalloutWastelands {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ACID_WASTE);
-            event.accept(ModItems.ALUMINUM_SCRAP);
-            event.accept(ModItems.BALLISTIC_FIBER_SCRAP);
-            event.accept(ModItems.BLACK_TITANIUM_SCRAP);
-            event.accept(ModItems.BULK_ALUMINUM);
-            event.accept(ModItems.BULK_BLACK_TITANIUM);
-            event.accept(ModItems.BULK_CLOTH);
-            event.accept(ModItems.BULK_LEAD);
-            event.accept(ModItems.BULK_PLASTIC);
-            event.accept(ModItems.BULK_RUBBER);
-            event.accept(ModItems.BULK_SCREWS);
-            event.accept(ModItems.BULK_SILVER);
-            event.accept(ModItems.CERAMIC_SCRAP);
-            event.accept(ModItems.CIRCUITS);
-            event.accept(ModItems.CORK_SCRAP);
-            event.accept(ModItems.EXCESS_ADHESIVE);
-            event.accept(ModItems.FIBER_OPTICS_BUNDLE);
-            event.accept(ModItems.FIBERGLASS_SPOOL);
-            event.accept(ModItems.LEAD_SCRAP);
-            event.accept(ModItems.LOOSE_GEARS);
-            event.accept(ModItems.LOOSE_SCREWS);
-            event.accept(ModItems.LOOSE_SPRINGS);
-            event.accept(ModItems.MOLDED_PLASTIC);
-            event.accept(ModItems.NUCLEAR_WASTE);
-            event.accept(ModItems.RAW_ASBESTOS);
-            event.accept(ModItems.RAW_BAUXITE);
-            event.accept(ModItems.RAW_BLACK_TITANIUM);
-            event.accept(ModItems.RAW_CLOTH);
-            event.accept(ModItems.RAW_LEAD);
-            event.accept(ModItems.RAW_RUBBER);
-            event.accept(ModItems.RAW_SILVER);
-            event.accept(ModItems.SILVER_SCRAP);
-            event.accept(ModItems.WASTE_ANTISEPTIC);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.BAUXITE_DEEPSLATE_ORE);
-            event.accept(ModBlocks.BAUXITE_ORE);
-            event.accept(ModBlocks.BLACK_TITANIUM_DEEPSLATE_ORE);
-            event.accept(ModBlocks.LEAD_DEEPSLATE_ORE);
-            event.accept(ModBlocks.LEAD_ORE);
-            event.accept(ModBlocks.SILVER_DEEPSLATE_ORE);
-            event.accept(ModBlocks.SILVER_ORE);
         }
     }
 

@@ -31,6 +31,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final DeferredBlock<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> ULTRACITE_DEEPSLATE_ORE = registerBlock("ultracite_deepslate_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final DeferredBlock<Block> ULTRACITE_ORE = registerBlock("ultracite_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

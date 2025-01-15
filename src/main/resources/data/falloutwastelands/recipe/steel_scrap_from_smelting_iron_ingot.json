@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 0.25,
+  "group": "aluminum",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:steel_scrap"
+  }
+}

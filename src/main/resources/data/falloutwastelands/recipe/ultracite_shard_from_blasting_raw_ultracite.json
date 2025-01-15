@@ -3,12 +3,12 @@
   "category": "misc",
   "cookingtime": 100,
   "experience": 0.25,
-  "group": "lead",
+  "group": "ultracite",
   "ingredient": {
-    "item": "falloutwastelands:raw_lead"
+    "item": "falloutwastelands:raw_ultracite"
   },
   "result": {
     "count": 1,
-    "id": "falloutwastelands:lead_scrap"
+    "id": "falloutwastelands:ultracite_shard"
   }
 }

@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "falloutwastelands:silver_deepslate_ore",
-    "falloutwastelands:silver_ore"
+    "falloutwastelands:silver_ore",
+    "falloutwastelands:ultracite_deepslate_ore",
+    "falloutwastelands:ultracite_ore"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.25,
+  "group": "lead",
+  "ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:steel_scrap"
+  }
+}

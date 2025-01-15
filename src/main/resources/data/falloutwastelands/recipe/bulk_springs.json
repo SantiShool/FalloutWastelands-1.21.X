@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "falloutwastelands:loose_springs"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:bulk_springs"
+  }
+}
