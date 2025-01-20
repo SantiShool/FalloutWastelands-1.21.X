@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
-  "category": "misc",
-  "cookingtime": 100,
+  "category": "junk",
+  "cookingtime": 250,
   "experience": 0.25,
   "group": "lead",
   "ingredient": {

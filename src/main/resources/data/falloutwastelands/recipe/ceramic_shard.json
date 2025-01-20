@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "junk",
+  "key": {
+    "B": {
+      "item": "falloutwastelands:ceramic_shard"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:bulk_ceramics"
+  }
+}

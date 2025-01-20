@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "junk",
+  "ingredients": [
+    {
+      "item":"falloutwastelands:bulk_lead"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "falloutwastelands:lead_scrap"
+  }
+}

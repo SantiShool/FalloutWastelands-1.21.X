@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "bulk",
+  "key": {
+    "B": {
+      "item": "falloutwastelands:vault_steel_scrap"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:bulk_vault_steel"
+  }
+}

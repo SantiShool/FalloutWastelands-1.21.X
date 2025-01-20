@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "junk",
+  "ingredients": [
+    {
+      "item":"falloutwastelands:bulk_ballistic_fiber"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "falloutwastelands:ballistic_ballistic_fiber"
+  }
+}

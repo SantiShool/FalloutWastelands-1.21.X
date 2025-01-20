@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "junk",
+  "ingredients": [
+    {
+      "item":"falloutwastelands:bulk_corks"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "falloutwastelands:cork_scrap"
+  }
+}

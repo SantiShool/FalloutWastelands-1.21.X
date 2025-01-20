@@ -20,21 +20,45 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BONE_SHARDS = ITEMS.register("bone_shards",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BULK_ALUMINUM = ITEMS.register("bulk_aluminum",
+    public static final DeferredItem<Item> BULK_ACID = ITEMS.register("bulk_acid",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_ADHESIVE = ITEMS.register("bulk_adhesive",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_ANTISEPTIC = ITEMS.register("bulk_antiseptic",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BULK_ASBESTOS = ITEMS.register("bulk_asbestos",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BULK_BLACK_TITANIUM = ITEMS.register("bulk_black_titanium",
+    public static final DeferredItem<Item> BULK_BALLISTIC_FIBER = ITEMS.register("bulk_ballistic_fiber",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BULK_BONE_SHARDS = ITEMS.register("bulk_bone_shards",
+    public static final DeferredItem<Item> BULK_BONES = ITEMS.register("bulk_bones",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_CERAMICS = ITEMS.register("bulk_ceramics",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_CIRCUITS = ITEMS.register("bulk_circuits",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BULK_CLOTH = ITEMS.register("bulk_cloth",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_CONCRETE = ITEMS.register("bulk_concrete",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_CORKS = ITEMS.register("bulk_corks",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_CRYSTALS = ITEMS.register("bulk_crystals",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_FERTILIZER = ITEMS.register("bulk_fertilizer",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_FIBER_OPTICS = ITEMS.register("bulk_fiber_optics",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_FIBERGLASS = ITEMS.register("bulk_fiberglass",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BULK_GEARS = ITEMS.register("bulk_gears",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BULK_LEAD = ITEMS.register("bulk_lead",
+    public static final DeferredItem<Item> BULK_GLASS = ITEMS.register("bulk_glass",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_GUNPOWDER = ITEMS.register("bulk_gunpowder",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BULK_LEATHER = ITEMS.register("bulk_leather",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BULK_OIL = ITEMS.register("bulk_oil",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BULK_PLASTIC = ITEMS.register("bulk_plastic",
             () -> new Item(new Item.Properties()));
@@ -42,35 +66,33 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BULK_SCREWS = ITEMS.register("bulk_screws",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BULK_SILVER = ITEMS.register("bulk_silver",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BULK_SPRINGS = ITEMS.register("bulk_springs",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BULK_STEEL = ITEMS.register("bulk_steel",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CERAMIC_SCRAP = ITEMS.register("ceramic_scrap",
+    public static final DeferredItem<Item> CERAMIC_SHARD = ITEMS.register("ceramic_shard",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CIRCUITS = ITEMS.register("circuits",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CONCRETE_POWDER = ITEMS.register("concrete_powder",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CORK_SCRAP = ITEMS.register("cork_scrap",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> CRYSTAL_SHARDS = ITEMS.register("crystal_shards",
+    public static final DeferredItem<Item> CRYSTAL_SHARD = ITEMS.register("crystal_shard",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> EXCESS_ADHESIVE = ITEMS.register("excess_adhesive",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> FIBER_OPTICS_BUNDLE = ITEMS.register("fiber_optics_bundle",
+    public static final DeferredItem<Item> FIBER_OPTICS_SCRAP = ITEMS.register("fiber_optics_scrap",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> FIBERGLASS_SPOOL = ITEMS.register("fiberglass_spool",
+    public static final DeferredItem<Item> FIBERGLASS_SCRAP = ITEMS.register("fiberglass_scrap",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> GLASS_SHARDS = ITEMS.register("glass_shards",
+    public static final DeferredItem<Item> GLASS_SHARD = ITEMS.register("glass_shard",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> LEAD_SCRAP = ITEMS.register("lead_scrap",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> LOOSE_GEARS = ITEMS.register("loose_gears",
+    public static final DeferredItem<Item> LOOSE_GEAR = ITEMS.register("loose_gear",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> LOOSE_SCREWS = ITEMS.register("loose_screws",
+    public static final DeferredItem<Item> LOOSE_SCREW = ITEMS.register("loose_screw",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> LOOSE_SPRINGS = ITEMS.register("loose_springs",
+    public static final DeferredItem<Item> LOOSE_SPRING = ITEMS.register("loose_spring",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MOLDED_PLASTIC = ITEMS.register("molded_plastic",
             () -> new Item(new Item.Properties()));
@@ -86,9 +108,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_CLOTH = ITEMS.register("raw_cloth",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_LEAD = ITEMS.register("raw_lead",
+    public static final DeferredItem<Item> RAW_FERTILIZER = ITEMS.register("raw_fertilizer",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_LEATHER = ITEMS.register("raw_leather",
+    public static final DeferredItem<Item> RAW_LEAD = ITEMS.register("raw_lead",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_RUBBER = ITEMS.register("raw_rubber",
             () -> new Item(new Item.Properties()));
@@ -102,7 +124,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ULTRACITE_SHARD = ITEMS.register("ultracite_shard",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> UNREFINED_GUNPOWDER = ITEMS.register("unrefined_gunpowder",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VAULT_STEEL_SCRAP = ITEMS.register("vault_steel_scrap",
+            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WASTE_ANTISEPTIC = ITEMS.register("waste_antiseptic",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> WASTE_OIL = ITEMS.register("waste_oil",
             () -> new Item(new Item.Properties()));
 
 

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "bulk",
   "key": {
     "B": {
-      "item": "falloutwastelands:raw_leather"
+      "item": "minecraft:leather"
     }
   },
   "pattern": [

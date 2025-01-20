@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
-  "category": "misc",
-  "cookingtime": 500,
+  "category": "junk",
+  "cookingtime": 1000,
   "experience": 0.25,
   "group": "aluminum",
   "ingredient": {

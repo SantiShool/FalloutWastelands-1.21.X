@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "junk",
   "ingredients": [
     {
       "item":"falloutwastelands:bulk_of_silver"

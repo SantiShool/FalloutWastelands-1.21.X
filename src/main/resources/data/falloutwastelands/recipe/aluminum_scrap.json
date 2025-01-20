@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "junk",
   "ingredients": [
     {
-      "item":"falloutwastelands:bulk_of_aluminum"
+      "item":"falloutwastelands:bulk_aluminum"
     }
   ],
   "result": {
