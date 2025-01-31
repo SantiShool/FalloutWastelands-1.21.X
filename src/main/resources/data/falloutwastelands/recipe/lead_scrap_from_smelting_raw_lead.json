@@ -2,8 +2,8 @@
   "type": "minecraft:smelting",
   "category": "junk",
   "cookingtime": 200,
-  "experience": 0.25,
-  "group": "aluminum",
+  "experience": 0.7,
+  "group": "lead",
   "ingredient": {
     "item": "falloutwastelands:raw_lead"
   },

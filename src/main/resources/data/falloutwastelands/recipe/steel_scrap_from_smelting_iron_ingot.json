@@ -3,7 +3,7 @@
   "category": "junk",
   "cookingtime": 1000,
   "experience": 0.25,
-  "group": "aluminum",
+  "group": "steel",
   "ingredient": {
     "item": "minecraft:iron_ingot"
   },

@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "category": "junk",
   "cookingtime": 100,
-  "experience": 0.25,
+  "experience": 1,
   "group": "silver",
   "ingredient": {
     "item": "falloutwastelands:raw_silver"

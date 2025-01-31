@@ -2,8 +2,8 @@
   "type": "minecraft:smelting",
   "category": "junk",
   "cookingtime": 200,
-  "experience": 0.25,
-  "group": "aluminum",
+  "experience": 1,
+  "group": "silver",
   "ingredient": {
     "item": "falloutwastelands:raw_silver"
   },

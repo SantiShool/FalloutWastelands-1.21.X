@@ -1,11 +1,11 @@
 {
   "type": "minecraft:blasting",
   "category": "junk",
-  "cookingtime": 250,
+  "cookingtime": 500,
   "experience": 0.25,
-  "group": "lead",
+  "group": "steel",
   "ingredient": {
-    "item": "falloutwastelands:iron_ingot"
+    "item": "minecraft:iron_ingot"
   },
   "result": {
     "count": 1,

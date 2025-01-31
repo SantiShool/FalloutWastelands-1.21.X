@@ -1,8 +1,10 @@
 package net.squaants.falloutwastelands.blocks;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -22,7 +24,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BAUXITE_ORE = registerBlock("bauxite_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final DeferredBlock<Block> BLACK_TITANIUM_DEEPSLATE_ORE = registerBlock("black_titanium_deepslate_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+            () -> new DropExperienceBlock(UniformInt.of(3,7),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final DeferredBlock<Block> BULK_ALUMINUM = registerBlock("bulk_aluminum",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> BULK_LEAD = registerBlock("bulk_lead",
@@ -44,9 +47,11 @@ public class ModBlocks {
     public static final DeferredBlock<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
     public static final DeferredBlock<Block> ULTRACITE_DEEPSLATE_ORE = registerBlock("ultracite_deepslate_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).lightLevel(state -> 7)));
+            () -> new DropExperienceBlock(UniformInt.of(3,7),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).lightLevel(state -> 7)));
     public static final DeferredBlock<Block> ULTRACITE_ORE = registerBlock("ultracite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 7)));
+            () -> new DropExperienceBlock(UniformInt.of(3,7),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 7)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
