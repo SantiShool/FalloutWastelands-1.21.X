@@ -1,8 +1,6 @@
 package net.squaants.falloutwastelands.item;
 
-import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -82,9 +80,94 @@ public class ModItems {
     public static final DeferredItem<Item> WASTE_OIL = ITEMS.register("waste_oil",
             () -> new Item(new Item.Properties()));
 
-
+    public static final DeferredItem<Item> ANGLER_FILET = ITEMS.register("angler_filet",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ANGLER_FILET)));
+    public static final DeferredItem<Item> ANGLER_MEAT = ITEMS.register("angler_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ANGLER_MEAT)));
+    public static final DeferredItem<Item> ANT_MEAT = ITEMS.register("ant_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ANT_MEAT)));
+    public static final DeferredItem<Item> ASTER = ITEMS.register("aster",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ASTER)));
     public static final DeferredItem<Item> BLAMCO_BRAND_MAC_AND_CHEESE = ITEMS.register("blamco_brand_mac_and_cheese",
             () -> new Item(new Item.Properties().food(ModFoodProperties.BLAMCO_BRAND_MAC_AND_CHEESE)));
+    public static final DeferredItem<Item> BLIGHT = ITEMS.register("blight",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BLIGHT)));
+    public static final DeferredItem<Item> BLOATFLY_MEAT = ITEMS.register("bloatfly_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BLOATFLY_MEAT)));
+    public static final DeferredItem<Item> BLOODBUG_MEAT = ITEMS.register("bloodbug_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BLOODBUG_MEAT)));
+    public static final DeferredItem<Item> BLOODLEAF = ITEMS.register("bloodleaf",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BLOODLEAF)));
+    public static final DeferredItem<Item> BRAIN_FUNGUS = ITEMS.register("brain_fungus",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.BRAIN_FUNGUS)));
+    public static final DeferredItem<Item> CAT_TAIL = ITEMS.register("cat_tail",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CAT_TAIL)));
+    public static final DeferredItem<Item> CAVE_CRICKET_MEAT = ITEMS.register("cave_cricket_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CAVE_CRICKET_MEAT)));
+    public static final DeferredItem<Item> CAVE_FUNGUS = ITEMS.register("cave_fungus",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CAVE_FUNGUS)));
+    public static final DeferredItem<Item> COOKED_CAT_TAIL = ITEMS.register("cooked_cat_tail",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_CAT_TAIL)));
+    public static final DeferredItem<Item> COOKED_IGUANA_TAIL = ITEMS.register("cooked_iguana_tail",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.COOKED_IGUANA_TAIL)));
+    public static final DeferredItem<Item> CORN = ITEMS.register("corn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CORN)));
+    public static final DeferredItem<Item> CRANBERRIES = ITEMS.register("cranberries",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.CRANBERRIES)));
+    public static final DeferredItem<Item> DEATHCLAW_MEAT = ITEMS.register("deathclaw_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.DEATHCLAW_MEAT)));
+    public static final DeferredItem<Item> DEATHCLAW_STEAK = ITEMS.register("deathclaw_steak",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.DEATHCLAW_STEAK)));
+    public static final DeferredItem<Item> DOG_MEAT = ITEMS.register("dog_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.DOG_MEAT)));
+    public static final DeferredItem<Item> FIRECAP = ITEMS.register("firecap",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FIRECAP)));
+    public static final DeferredItem<Item> FIRECRACKER_BERRIES = ITEMS.register("firecracker_berries",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FIRECRACKER_BERRIES)));
+    public static final DeferredItem<Item> FOX_MEAT = ITEMS.register("fox_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FOX_MEAT)));
+    public static final DeferredItem<Item> FROG_EGG = ITEMS.register("frog_egg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FROG_EGG)));
+    public static final DeferredItem<Item> FROG_LEG = ITEMS.register("frog_leg",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FROG_LEG)));
+    public static final DeferredItem<Item> GINSENG_ROOT = ITEMS.register("ginseng_root",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GINSENG_ROOT)));
+    public static final DeferredItem<Item> GOURD = ITEMS.register("gourd",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GOURD)));
+    public static final DeferredItem<Item> GULPER_MEAT = ITEMS.register("gulper_meat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GULPER_MEAT)));
+    public static final DeferredItem<Item> GUT_SHROOM = ITEMS.register("gut_shroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GUT_SHROOM)));
+    public static final DeferredItem<Item> IGUANA_TAIL = ITEMS.register("iguana_tail",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.IGUANA_TAIL)));
+    public static final DeferredItem<Item> KALEIDOPORE_FLOWER = ITEMS.register("kaleidopore_flower",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.KALEIDOPORE_FLOWER)));
+    public static final DeferredItem<Item> LURE_WEED = ITEMS.register("lure_weed",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.LURE_WEED)));
+    public static final DeferredItem<Item> MEGASLOTH_MUSHROOM = ITEMS.register("megasloth_mushroom",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MEGASLOTH_MUSHROOM)));
+    public static final DeferredItem<Item> MUTATED_FERN_FLOWER = ITEMS.register("mutated_fern_flower",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MUTATED_FERN_FLOWER)));
+    public static final DeferredItem<Item> MUTFRUIT = ITEMS.register("mutfruit",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.MUTFRUIT)));
+    public static final DeferredItem<Item> RHODODENDRON_FLOWER = ITEMS.register("rhododendron_flower",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.RHODODENDRON_FLOWER)));
+    public static final DeferredItem<Item> ROASTED_DOG = ITEMS.register("roasted_dog",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ROASTED_DOG)));
+    public static final DeferredItem<Item> SEARED_GULPER = ITEMS.register("seared_gulper",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SEARED_GULPER)));
+    public static final DeferredItem<Item> SILT_BEAN = ITEMS.register("silt_bean",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SILT_BEAN)));
+    public static final DeferredItem<Item> SOOT_FLOWER = ITEMS.register("soot_flower",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.SOOT_FLOWER)));
+    public static final DeferredItem<Item> TARBERRIES = ITEMS.register("tarberries",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TARBERRIES)));
+    public static final DeferredItem<Item> TOMATO = ITEMS.register("tomato",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.TOMATO)));
+    public static final DeferredItem<Item> WILD_BLACKBERRY = ITEMS.register("wild_blackberry",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.WILD_BLACKBERRY)));
+
+
     public static final DeferredItem<Item> RADAWAY = ITEMS.register("radaway",
             () -> new Item(new Item.Properties()));
 
