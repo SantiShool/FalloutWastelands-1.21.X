@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "falloutwastelands:item/pork_n_beans"
+  }
+}
