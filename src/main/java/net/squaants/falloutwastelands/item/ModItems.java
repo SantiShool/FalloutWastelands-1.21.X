@@ -16,8 +16,6 @@ public class ModItems {
 
     public static final DeferredItem<Item> ACID_WASTE = ITEMS.register("acid_waste",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CUSTOM_WOODEN_SWORD = ITEMS.register("wooden_sword",
-            () -> new SwordItem(Tiers.WOOD, 3, -1.5F, new Item.Properties()));
     public static final DeferredItem<Item> ALUMINUM_SCRAP = ITEMS.register("aluminum_scrap",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BALLISTIC_FIBER_SCRAP = ITEMS.register("ballistic_fiber_scrap",
