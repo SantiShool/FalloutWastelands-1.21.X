@@ -5,6 +5,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.squaants.falloutwastelands.FalloutWastelands;
@@ -15,19 +17,33 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FalloutWastelands.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> FALLOUT_JUNK_TAB = CREATIVE_MODE_TAB.register("fallout_junk_tab",
+    public static final Supplier<CreativeModeTab> FALLOUT_COMPONENTS_TAB = CREATIVE_MODE_TAB.register("fallout_components_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.NUCLEAR_WASTE.get()))
                     // Invert ordering: require Food n Drink to come before Junk.
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FalloutWastelands.MOD_ID, "fallout_food_n_drink_tab"))
-                    .title(Component.translatable("creativetab.falloutwastelands.fallout_junk"))
+                    .title(Component.translatable("creativetab.falloutwastelands.fallout_components"))
                     .displayItems((params, output) -> {
-                        output.accept(ModItems.ACID_WASTE);
+                        output.accept(Items.EMERALD);
+                        output.accept(Items.COAL);
+                        output.accept(Items.RAW_GOLD);
+                        output.accept(Items.DIAMOND);
+                        output.accept(ModItems.RAW_BLACK_TITANIUM);
+                        output.accept(Items.LAPIS_LAZULI);
+                        output.accept(Items.RAW_COPPER);
+                        output.accept(Items.REDSTONE);
+                        output.accept(Items.RAW_IRON);
+                        output.accept(ModItems.VAULT_STEEL);
+                        output.accept(Items.GOLD_INGOT);
+                        output.accept(ModItems.SILVER_SCRAP);
+                        output.accept(ModItems.BLACK_TITANIUM_SCRAP);
                         output.accept(ModItems.ALUMINUM_SCRAP);
+                        output.accept(Items.COPPER_INGOT);
+                        output.accept(ModItems.LEAD_SCRAP);
+                        output.accept(Items.IRON_INGOT);
+                        output.accept(ModItems.ACID_WASTE);
                         output.accept(ModItems.BALLISTIC_FIBER_SCRAP);
-                        output.accept(ModItems.BLACK_TITANIUM_SCRAP);
-                        output.accept(ModItems.BLACK_TITANIUM_SCRAP);
-                        output.accept(ModItems.BONE_SHARDS);
+                        output.accept(Items.BONE);
                         output.accept(ModItems.CERAMIC_SHARDS);
                         output.accept(ModItems.CIRCUIT);
                         output.accept(ModItems.CONCRETE_POWDER);
@@ -37,25 +53,17 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.FIBER_OPTICS_SCRAP);
                         output.accept(ModItems.FIBERGLASS_SCRAP);
                         output.accept(ModItems.GLASS_SHARDS);
-                        output.accept(ModItems.LEAD_SCRAP);
                         output.accept(ModItems.LOOSE_GEAR);
                         output.accept(ModItems.LOOSE_SCREW);
                         output.accept(ModItems.LOOSE_SPRING);
                         output.accept(ModItems.MOLDED_PLASTIC);
                         output.accept(ModItems.NUCLEAR_WASTE);
                         output.accept(ModItems.RAW_ASBESTOS);
-                        output.accept(ModItems.RAW_BAUXITE);
-                        output.accept(ModItems.RAW_BLACK_TITANIUM);
                         output.accept(ModItems.RAW_CLOTH);
                         output.accept(ModItems.RAW_FERTILIZER);
-                        output.accept(ModItems.RAW_LEAD);
+                        output.accept(Items.LEATHER);
                         output.accept(ModItems.RAW_RUBBER);
-                        output.accept(ModItems.RAW_SILVER);
-                        output.accept(ModItems.SILVER_SCRAP);
-                        output.accept(ModItems.STEEL_SCRAP);
-                        output.accept(ModItems.ULTRACITE_SHARD);
                         output.accept(ModItems.UNREFINED_GUNPOWDER);
-                        output.accept(ModItems.VAULT_STEEL_SCRAP);
                         output.accept(ModItems.WASTE_ANTISEPTIC);
                         output.accept(ModItems.WASTE_OIL);
                     })
@@ -89,6 +97,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.BUBBLE_GUM);
                         output.accept(ModItems.CAJUN_RICE_N_BEANS);
                         output.accept(ModItems.CANNED_DOG_FOOD);
+                        output.accept(Items.CARROT);
                         output.accept(ModItems.CAT_TAIL);
                         output.accept(ModItems.CAVE_CRICKET_MEAT);
                         output.accept(ModItems.CHEW_STICK);
@@ -255,24 +264,25 @@ public class ModCreativeModTabs {
                     .build());
     public static final Supplier<CreativeModeTab> FALLOUT_BLOCKS_TAB = CREATIVE_MODE_TAB.register("fallout_blocks_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.BULK_VAULT_STEEL.get()))
+                    .icon(() -> new ItemStack(ModBlocks.BLACK_TITANIUM_ORE.get()))
                     .title(Component.translatable("creativetab.falloutwastelands.fallout_blocks"))
                     .displayItems((params, output) -> {
-                        output.accept(ModBlocks.BAUXITE_DEEPSLATE_ORE);
-                        output.accept(ModBlocks.BAUXITE_ORE);
-                        output.accept(ModBlocks.BLACK_TITANIUM_DEEPSLATE_ORE);
-                        output.accept(ModBlocks.BULK_ALUMINUM);
-                        output.accept(ModBlocks.BULK_LEAD);
-                        output.accept(ModBlocks.BULK_SILVER);
-                        output.accept(ModBlocks.BULK_STEEL);
-                        output.accept(ModBlocks.BULK_ULTRACITE);
-                        output.accept(ModBlocks.BULK_VAULT_STEEL);
-                        output.accept(ModBlocks.LEAD_DEEPSLATE_ORE);
-                        output.accept(ModBlocks.LEAD_ORE);
-                        output.accept(ModBlocks.SILVER_DEEPSLATE_ORE);
-                        output.accept(ModBlocks.SILVER_ORE);
-                        output.accept(ModBlocks.ULTRACITE_DEEPSLATE_ORE);
-                        output.accept(ModBlocks.ULTRACITE_ORE);
+                        output.accept(Blocks.COAL_ORE);
+                        output.accept(Blocks.DEEPSLATE_COAL_ORE);
+                        output.accept(Blocks.EMERALD_ORE);
+                        output.accept(Blocks.DEEPSLATE_EMERALD_ORE);
+                        output.accept(ModBlocks.BLACK_TITANIUM_ORE);
+                        output.accept(Blocks.DIAMOND_ORE);
+                        output.accept(Blocks.DEEPSLATE_DIAMOND_ORE);
+                        output.accept(Blocks.LAPIS_ORE);
+                        output.accept(Blocks.DEEPSLATE_LAPIS_ORE);
+                        output.accept(Blocks.COPPER_ORE);
+                        output.accept(Blocks.DEEPSLATE_COPPER_ORE);
+                        output.accept(Blocks.REDSTONE_ORE);
+                        output.accept(Blocks.DEEPSLATE_REDSTONE_ORE);
+                        output.accept(Blocks.IRON_ORE);
+                        output.accept(Blocks.DEEPSLATE_IRON_ORE);
+
                     })
                     .build());
 

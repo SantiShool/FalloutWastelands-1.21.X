@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "junk",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "ore",
+  "ingredient": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:lead_scrap"
+  }
+}

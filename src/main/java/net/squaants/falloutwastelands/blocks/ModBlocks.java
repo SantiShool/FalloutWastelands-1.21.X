@@ -19,39 +19,9 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(FalloutWastelands.MOD_ID);
 
-    public static final DeferredBlock<Block> BAUXITE_DEEPSLATE_ORE = registerBlock("bauxite_deepslate_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-    public static final DeferredBlock<Block> BAUXITE_ORE = registerBlock("bauxite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> BLACK_TITANIUM_DEEPSLATE_ORE = registerBlock("black_titanium_deepslate_ore",
-            () -> new DropExperienceBlock(UniformInt.of(3,7),
+    public static final DeferredBlock<Block> BLACK_TITANIUM_ORE = registerBlock("black_titanium_ore",
+            () -> new DropExperienceBlock(UniformInt.of(0,0),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-    public static final DeferredBlock<Block> BULK_ALUMINUM = registerBlock("bulk_aluminum",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> BULK_LEAD = registerBlock("bulk_lead",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> BULK_STEEL = registerBlock("bulk_steel",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> BULK_SILVER = registerBlock("bulk_silver",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
-    public static final DeferredBlock<Block> BULK_ULTRACITE = registerBlock("bulk_ultracite",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST_CLUSTER).lightLevel(state -> 10)));
-    public static final DeferredBlock<Block> BULK_VAULT_STEEL = registerBlock("bulk_vault_steel",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().explosionResistance(1200.0f)));
-    public static final DeferredBlock<Block> LEAD_DEEPSLATE_ORE = registerBlock("lead_deepslate_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-    public static final DeferredBlock<Block> LEAD_ORE = registerBlock("lead_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> SILVER_DEEPSLATE_ORE = registerBlock("silver_deepslate_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-    public static final DeferredBlock<Block> SILVER_ORE = registerBlock("silver_ore",
-            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> ULTRACITE_DEEPSLATE_ORE = registerBlock("ultracite_deepslate_ore",
-            () -> new DropExperienceBlock(UniformInt.of(3,7),
-                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).lightLevel(state -> 7)));
-    public static final DeferredBlock<Block> ULTRACITE_ORE = registerBlock("ultracite_ore",
-            () -> new DropExperienceBlock(UniformInt.of(3,7),
-                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 7)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -22,8 +22,6 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BLACK_TITANIUM_SCRAP = ITEMS.register("black_titanium_scrap",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> BONE_SHARDS = ITEMS.register("bone_shards",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CERAMIC_SHARDS = ITEMS.register("ceramic_shards",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> CIRCUIT = ITEMS.register("circuit",
@@ -56,29 +54,19 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_ASBESTOS = ITEMS.register("raw_asbestos",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_BAUXITE = ITEMS.register("raw_bauxite",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_BLACK_TITANIUM = ITEMS.register("raw_black_titanium",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_CLOTH = ITEMS.register("raw_cloth",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_FERTILIZER = ITEMS.register("raw_fertilizer",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_LEAD = ITEMS.register("raw_lead",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_RUBBER = ITEMS.register("raw_rubber",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_SILVER = ITEMS.register("raw_silver",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SILVER_SCRAP = ITEMS.register("silver_scrap",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_SCRAP = ITEMS.register("steel_scrap",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> ULTRACITE_SHARD = ITEMS.register("ultracite_shard",
-            () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> UNREFINED_GUNPOWDER = ITEMS.register("unrefined_gunpowder",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> VAULT_STEEL_SCRAP = ITEMS.register("vault_steel_scrap",
+    public static final DeferredItem<Item> VAULT_STEEL = ITEMS.register("vault_steel",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> WASTE_ANTISEPTIC = ITEMS.register("waste_antiseptic",
             () -> new Item(new Item.Properties()));

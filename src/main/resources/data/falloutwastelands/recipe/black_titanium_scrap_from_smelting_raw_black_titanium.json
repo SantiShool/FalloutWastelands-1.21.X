@@ -3,7 +3,7 @@
   "category": "junk",
   "cookingtime": 200,
   "experience": 1,
-  "group": "black_titanium",
+  "group": "ore",
   "ingredient": {
     "item": "falloutwastelands:raw_black_titanium"
   },

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "junk",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "ore",
+  "ingredient": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:aluminum_scrap"
+  }
+}

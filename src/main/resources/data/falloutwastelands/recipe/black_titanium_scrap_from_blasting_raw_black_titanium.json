@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "junk",
+  "cookingtime": 100,
+  "experience": 1,
+  "group": "ore",
+  "ingredient": {
+    "item": "falloutwastelands:raw_black_titanium"
+  },
+  "result": {
+    "count": 1,
+    "id": "falloutwastelands:black_titanium_scrap"
+  }
+}
